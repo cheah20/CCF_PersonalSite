@@ -1,4 +1,4 @@
-# Cheah Chee Foong
+# Personal Site
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=white)
@@ -7,7 +7,7 @@
 
 My personal site and portfolio. I study Computer Science (AI) at UTeM and I'm working towards being an AI engineer.
 
-**Live site:** https://cheah20.github.io/
+**Live site:** https://cheah20.github.io/PersonalSite/
 
 ![Home](img/og.png)
 
@@ -40,7 +40,7 @@ Then open http://localhost:5500.
 ## Project Structure
 
 ```text
-cheah20.github.io/
+PersonalSite/
 ├── index.html      # all five pages
 ├── css/style.css
 ├── js/main.js      # page switch, theme, filter, card tilt, image viewer
