@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cheah Chee Foong</title>
+<meta name="description" content="Computer Science (AI) student at UTeM, learning to be an AI engineer. Projects, skills and contact.">
+<meta property="og:title" content="Cheah Chee Foong">
+<meta property="og:description" content="Computer Science (AI) student at UTeM, learning to be an AI engineer.">
+<meta property="og:image" content="https://cheah20.github.io/img/og.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  try { if (localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#home"><svg viewBox="0 0 100 100" width="34" height="34" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="50" cy="50" r="45"/><path d="M68.4 31.6A26 26 0 1 0 68.4 68.4"/><path d="M44 64V36H78M44 50H70"/></svg>Cheah Chee Foong</a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="theme" id="theme" type="button" aria-label="Switch theme">Dark</button>
+</header>
+
+<main>
+
+  <section class="view" data-page="home">
+    <div class="hero">
+      <p class="line hi">Hi, my name is</p>
+      <h1 class="line">Cheah Chee Foong.</h1>
+      <p class="line lead">I study Computer Science (AI) at UTeM and I'm teaching myself to be an AI engineer, one project at a time.</p>
+      <div class="line actions">
+        <a class="btn" href="#portfolio">See my portfolio</a>
+        <a class="btn ghost" href="#contact">Contact me</a>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>About</h2>
+      <div class="about">
+        <div>
+          <p>I learn best by building things. Most of my projects started as assignments, and some turned into something I wanted to finish properly.</p>
+          <p>Before UTeM I did a Diploma in Electronic Engineering (Computer), so I'm comfortable going from a Raspberry Pi and a relay up to a web dashboard. During my internship I built a payroll system and a student management system that a company used day to day.</p>
+          <p>Right now I'm working hard on the AI side: machine learning, LLMs, RAG and the backend that serves them. I follow a 90-day plan I wrote for myself, and I use what I learn in CareerBridge AI.</p>
+        </div>
+        <dl class="facts">
+          <dt>Studying</dt><dd>Bachelor of Computer Science (Artificial Intelligence) with Honours, UTeM</dd>
+          <dt>Strengths</dt><dd>Problem solving, learning fast, attention to detail</dd>
+          <dt>Languages</dt><dd>English, Mandarin, Bahasa Melayu, Cantonese, Hakka</dd>
+          <dt>Outside class</dt><dd>Photography, gym, badminton, jogging</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Selected work</h2>
+      <div class="projects">
+        <a class="card" href="#portfolio" data-to="careerbridge">
+          <div class="shot"><img src="img/careerbridge.webp" alt="CareerBridge AI resume result" loading="lazy"></div>
+          <p class="meta"><span class="status live">In progress</span>Workshop II</p>
+          <h3>CareerBridge AI</h3>
+          <p>Reads a resume, scores how well it fits a job and gives short advice on what to do next.</p>
+        </a>
+        <a class="card" href="#portfolio" data-to="neuraltrade">
+          <div class="shot"><img src="img/neuraltrade.webp" alt="NeuralTrade dashboard" loading="lazy"></div>
+          <p class="meta"><span class="status">Completed</span>Fuzzy Logic</p>
+          <h3>NeuralTrade</h3>
+          <p>Suggests Buy, Sell or Hold for a ticker with a Mamdani fuzzy engine and explains how.</p>
+        </a>
+        <a class="card" href="#portfolio" data-to="door-lock">
+          <div class="shot"><img src="img/door-lock.webp" alt="Door lock live monitor" loading="lazy"></div>
+          <p class="meta"><span class="status">Completed</span>Diploma Final Year Project</p>
+          <h3>Face Recognition Door Lock</h3>
+          <p>A Raspberry Pi 4 recognises registered faces and opens the lock.</p>
+        </a>
+      </div>
+      <a class="more" href="#portfolio">All 8 projects</a>
+    </div>
+  </section>
+
+  <section class="view" data-page="education" hidden>
+    <h1 class="title">Education</h1>
+    <ol class="timeline">
+      <li>
+        <time>Oct 2024 – now</time>
+        <h3>Bachelor of Computer Science (Artificial Intelligence)</h3>
+        <p class="where">Universiti Teknikal Malaysia Melaka (UTeM)</p>
+        <p>Agentic AI, machine learning, optimisation and human-computer interaction. Building CareerBridge AI for Workshop II.</p>
+      </li>
+      <li>
+        <time>Jan – Jun 2024</time>
+        <h3>Software Developer Intern</h3>
+        <p class="where">Malaysian retail company</p>
+        <p>Built a payroll system with Malaysian statutory deductions and a student management system for the company's repair course. Both replaced spreadsheets and paper forms.</p>
+      </li>
+      <li>
+        <time>2021 – 2024</time>
+        <h3>Diploma in Electronic Engineering (Computer)</h3>
+        <p class="where">Politeknik Sultan Azlan Shah (PSAS)</p>
+        <p>Final year project: Face Recognition Door Lock on a Raspberry Pi 4.</p>
+      </li>
+      <li>
+        <time>2016 – 2020</time>
+        <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+        <p class="where">SMK Jalan Pasir Puteh</p>
+      </li>
+    </ol>
+
+    <h2 class="sub">Certificates</h2>
+    <ul class="certs">
+      <li><time>May 2026</time><h3>Optimization Onramp</h3><p>MathWorks self-paced course, 100% complete.</p></li>
+      <li><time>Jun 2025</time><h3>Early Career Programs Bootcamp 2.0</h3><p>Jabil, with TalentCorp and Jobstreet. Certificate of participation.</p></li>
+      <li><time>Nov 2024</time><h3>MATLAB Onramp</h3><p>MathWorks self-paced course, 100% complete.</p></li>
+    </ul>
+  </section>
+
+  <section class="view" data-page="skills" hidden>
+    <h1 class="title">Skills</h1>
+    <p class="intro">I'm aiming to be an AI engineer, so this is what I focus on. Some I already use in projects, the rest I'm still learning.</p>
+
+    <h2 class="sub">AI engineering</h2>
+    <ul class="skills">
+      <li><b>Python</b><span>CareerBridge AI, NeuralTrade, door lock</span><em>Using</em></li>
+      <li><b>scikit-learn</b><span>Career direction model in CareerBridge AI</span><em>Using</em></li>
+      <li><b>LLM APIs and prompting</b><span>Resume advice and checked trade suggestions</span><em>Using</em></li>
+      <li><b>FastAPI</b><span>CareerBridge AI backend</span><em>Using</em></li>
+      <li><b>PostgreSQL</b><span>Supabase database for CareerBridge AI</span><em>Using</em></li>
+      <li><b>Git and GitHub Actions</b><span>CI on CareerBridge AI, team issues and reviews</span><em>Using</em></li>
+      <li><b>PyTorch</b><span>Training loops, CNNs and transfer learning</span><em class="soon">Learning</em></li>
+      <li><b>RAG and embeddings</b><span>Chunking, vector search and evaluation</span><em class="soon">Learning</em></li>
+      <li><b>Agents and tool calling</b><span>Workflows with state and human approval</span><em class="soon">Learning</em></li>
+      <li><b>Docker</b><span>Containers for an API and PostgreSQL</span><em class="soon">Learning</em></li>
+    </ul>
+
+    <h2 class="sub">Learning now</h2>
+    <p class="intro">A 90-day AI engineer plan I wrote for myself, with a lesson logbook and daily check-ins on GitHub Issues. <a href="https://cheah20.github.io/DigitalIncubation/">Open the logbook</a></p>
+    <ol class="plan">
+      <li><b>Python and Engineering Foundations</b><span>15 lessons</span></li>
+      <li><b>Math, Data and Classical ML</b><span>15 lessons</span></li>
+      <li><b>Deep Learning and GPU</b><span>12 lessons</span></li>
+      <li><b>LLMs, RAG and Agents</b><span>15 lessons</span></li>
+      <li><b>AI Backend and Databases</b><span>13 lessons</span></li>
+      <li><b>Engineering and Deployment</b><span>12 lessons</span></li>
+      <li><b>Integration and Final Assessment</b><span>8 lessons</span></li>
+    </ol>
+
+    <h2 class="sub">Also in my projects</h2>
+    <p class="intro">Flutter and Dart, Java, C++, JavaScript, HTML and CSS, Flask, MySQL, OpenCV, Raspberry Pi, MATLAB.</p>
+  </section>
+
+  <section class="view" data-page="portfolio" hidden>
+    <h1 class="title">Portfolio</h1>
+    <div class="filters" id="filters">
+      <button class="on" data-filter="all">All</button>
+      <button data-filter="degree">Degree</button>
+      <button data-filter="diploma">Diploma</button>
+      <button data-filter="self">Self-study</button>
+    </div>
+
+    <article class="work" id="careerbridge" data-group="degree">
+      <div class="text">
+        <p class="meta"><span class="status live">In progress</span>Workshop II, Year 3, since Oct 2026</p>
+        <h2>CareerBridge AI</h2>
+        <p>A career and recruitment platform for job seekers, recruiters and admins in Malaysia and Singapore.</p>
+        <ul>
+          <li>Reads a PDF, Word or photo resume and turns it into a profile.</li>
+          <li>Scores the fit for a chosen job and level: skills 70%, experience 20%, education 10%.</li>
+          <li>A scikit-learn model suggests a career direction, and an LLM writes short advice.</li>
+        </ul>
+        <p class="stack">Flutter, FastAPI, Supabase, scikit-learn, DeepSeek</p>
+        <p class="links"><a href="https://github.com/cheah20/CareerBridgeAI">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/careerbridge-2.webp" alt="" loading="lazy"><figcaption>Resume result</figcaption></figure>
+        <figure><img src="img/shots/careerbridge-1.webp" alt="" loading="lazy"><figcaption>Landing page</figcaption></figure>
+        <figure><img src="img/shots/careerbridge-3.webp" alt="" loading="lazy"><figcaption>New analysis</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="neuraltrade" data-group="degree">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Fuzzy Logic, Year 2, May – Jun 2026</p>
+        <h2>NeuralTrade</h2>
+        <p>A web app that suggests Buy, Sell or Hold for a stock or crypto ticker and explains how it got there.</p>
+        <ul>
+          <li>A Mamdani fuzzy engine scores RSI, MACD, ATR and news sentiment.</li>
+          <li>An expert layer decides which inputs to trust in each kind of market.</li>
+          <li>LLM suggestions only count after they pass a rule check.</li>
+        </ul>
+        <p class="stack">Python, Flask, NumPy, DeepSeek</p>
+        <p class="links"><a href="https://cheah20.github.io/NeuralTrade/">Live demo</a><a href="https://github.com/cheah20/NeuralTrade">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/neuraltrade-1.webp" alt="" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+        <figure><img src="img/shots/neuraltrade-2.webp" alt="" loading="lazy"><figcaption>Backtesting</figcaption></figure>
+        <figure><img src="img/shots/neuraltrade-3.webp" alt="" loading="lazy"><figcaption>Agent check</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="hotel" data-group="degree">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Object Oriented Programming, Year 2 Semester 1</p>
+        <h2>Hotel Management System</h2>
+        <p>A Java Swing desktop app for hotel front desk staff. Group coursework, and I did most of it.</p>
+        <ul>
+          <li>Customers, rooms, dining tables, bookings, invoices and receipts.</li>
+          <li>A booking works out nights, meals and member discount, then saves everything in one transaction.</li>
+        </ul>
+        <p class="stack">Java, Swing, MariaDB, JDBC</p>
+        <p class="links"><a href="https://cheah20.github.io/HotelManagementSystem/">Showcase</a><a href="https://github.com/cheah20/HotelManagementSystem">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/hotel-1.webp" alt="" loading="lazy"><figcaption>New booking</figcaption></figure>
+        <figure><img src="img/shots/hotel-2.webp" alt="" loading="lazy"><figcaption>Bookings</figcaption></figure>
+        <figure><img src="img/shots/hotel-3.webp" alt="" loading="lazy"><figcaption>Staff login</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="sms-cpp" data-group="degree">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Workshop I, Year 2 Semester 1</p>
+        <h2>Student Management System (C++)</h2>
+        <p>A console app for admins, lecturers and students, backed by MySQL.</p>
+        <ul>
+          <li>Lecturers key in marks, the app works out grades and CGPA.</li>
+          <li>Students see their courses and print a transcript to a text file.</li>
+        </ul>
+        <p class="stack">C++, MySQL Connector/C++, XAMPP</p>
+        <p class="links"><a href="https://cheah20.github.io/StudentManagementSystemCppVersion/">Showcase</a><a href="https://github.com/cheah20/StudentManagementSystemCppVersion">Code</a></p>
+      </div>
+      <div class="gallery console">
+        <figure><img src="img/shots/sms-cpp-2.webp" alt="" loading="lazy"><figcaption>Key in marks</figcaption></figure>
+        <figure><img src="img/shots/sms-cpp-3.webp" alt="" loading="lazy"><figcaption>Transcript</figcaption></figure>
+        <figure><img src="img/shots/sms-cpp-1.webp" alt="" loading="lazy"><figcaption>Admin menu</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="digital-incubation" data-group="self">
+      <div class="text">
+        <p class="meta"><span class="status live">In progress</span>Self-study, since Oct 2026</p>
+        <h2>Digital Incubation: AI 90 Days</h2>
+        <p>My own plan to go from Python basics to an AI system in production.</p>
+        <ul>
+          <li>90 lessons in 7 chapters, each with notes, exercises and a self-test.</li>
+          <li>Daily check-ins as GitHub Issues, grouped into milestones.</li>
+        </ul>
+        <p class="stack">Python, HTML, JavaScript, GitHub Issues</p>
+        <p class="links"><a href="https://cheah20.github.io/DigitalIncubation/">Logbook</a><a href="https://github.com/cheah20/DigitalIncubation">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/digital-1.webp" alt="" loading="lazy"><figcaption>Overview</figcaption></figure>
+        <figure><img src="img/shots/digital-2.webp" alt="" loading="lazy"><figcaption>A lesson</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="payroll" data-group="diploma">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Diploma Internship, Jan – Jun 2024</p>
+        <h2>Payroll System</h2>
+        <p>HR staff keep employee records, run monthly payroll and print payslips.</p>
+        <ul>
+          <li>Works out EPF, SOCSO, EIS and PCB for each employee.</li>
+          <li>Exports the files for submission and bank payment.</li>
+        </ul>
+        <p class="stack">HTML, CSS, JavaScript, MySQL</p>
+        <p class="links"><a href="https://cheah20.github.io/PayrollSystem/">Live demo</a><a href="https://github.com/cheah20/PayrollSystem">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/payroll-1.webp" alt="" loading="lazy"><figcaption>Dashboard</figcaption></figure>
+        <figure><img src="img/shots/payroll-2.webp" alt="" loading="lazy"><figcaption>Run payroll</figcaption></figure>
+        <figure><img src="img/shots/payroll-3.webp" alt="" loading="lazy"><figcaption>Payslip</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="sms-internship" data-group="diploma">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Diploma Internship, Jan – Jun 2024</p>
+        <h2>Student Management System</h2>
+        <p>Admin, teacher and student views for a company's repair course.</p>
+        <ul>
+          <li>Admin keeps records, checks bank slips and issues receipts.</li>
+          <li>Teachers manage classes, grades and assignments.</li>
+        </ul>
+        <p class="stack">HTML, CSS, JavaScript, MySQL</p>
+        <p class="links"><a href="https://cheah20.github.io/StudentManagementSystem/">Live demo</a><a href="https://github.com/cheah20/StudentManagementSystem">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/smsi-1.webp" alt="" loading="lazy"><figcaption>Fees</figcaption></figure>
+        <figure><img src="img/shots/smsi-2.webp" alt="" loading="lazy"><figcaption>Student dashboard</figcaption></figure>
+        <figure><img src="img/shots/smsi-3.webp" alt="" loading="lazy"><figcaption>Student record</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="work" id="door-lock" data-group="diploma">
+      <div class="text">
+        <p class="meta"><span class="status">Completed</span>Diploma Final Year Project, 2023</p>
+        <h2>Face Recognition Door Lock</h2>
+        <p>A Raspberry Pi 4 watches the door through a Pi camera and opens a 12V solenoid lock through a relay.</p>
+        <ul>
+          <li>Unknown faces are refused, photographed and logged.</li>
+          <li>A dashboard on the Pi shows the live camera, door state and access log.</li>
+        </ul>
+        <p class="stack">Python, OpenCV, Flask, Raspberry Pi</p>
+        <p class="links"><a href="https://github.com/cheah20/FaceRecognitionDoorLock">Code</a></p>
+      </div>
+      <div class="gallery">
+        <figure><img src="img/shots/door-1.webp" alt="" loading="lazy"><figcaption>Hardware</figcaption></figure>
+        <figure><img src="img/shots/door-2.webp" alt="" loading="lazy"><figcaption>Access log</figcaption></figure>
+        <figure><img src="img/shots/door-3.webp" alt="" loading="lazy"><figcaption>Face database</figcaption></figure>
+      </div>
+    </article>
+  </section>
+
+  <section class="view" data-page="contact" hidden>
+    <h1 class="title">Contact</h1>
+    <p class="intro">Looking for an intern or want to talk about a project? Email me.</p>
+    <a class="mail" href="mailto:cheahcheefoong08@gmail.com">cheahcheefoong08@gmail.com</a>
+    <p class="links"><a href="https://github.com/cheah20">GitHub</a><a href="https://www.linkedin.com/in/chee-foong-cheah-571201266/">LinkedIn</a></p>
+  </section>
+
+</main>
+
+<footer class="foot">© 2026 Cheah Chee Foong</footer>
+
+<dialog id="viewer">
+  <img alt="">
+  <p></p>
+  <button type="button" aria-label="Close">Close</button>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
