@@ -7,7 +7,7 @@
 
 My personal site and portfolio. I study Computer Science (AI) at UTeM and I'm working towards being an AI engineer.
 
-**Live site:** https://cheah20.github.io/PersonalSite/
+**Live site:** https://cheah20.github.io/CCF_PersonalSite/
 
 ![Home](img/og.png)
 
@@ -40,7 +40,7 @@ Then open http://localhost:5500.
 ## Project Structure
 
 ```text
-PersonalSite/
+CCF_PersonalSite/
 ├── index.html      # all five pages
 ├── css/style.css
 ├── js/main.js      # page switch, theme, filter, card tilt, image viewer
